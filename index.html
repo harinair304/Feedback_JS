@@ -1,0 +1,55 @@
+<!doctype html>
+
+<head>
+		
+	<title>Simple layout</title>
+	<link href="styles.css" rel="stylesheet">
+    <link href="feedBackStyle.css" rel="stylesheet">
+    <script src = "jquery-2.1.4.js"></script>
+    <script src = "html2canvas.js"></script>
+	<script src = "feedBack.js"></script>
+   
+</head>
+
+
+
+
+
+<body>
+    
+   <!-- stuff that needs to be added on a page  -->
+    <!-- <div id="div" hidden></div>   -->
+
+
+
+
+    <!-- <div id ="overlayDiv" hidden></div> -->
+
+	<div class="wrapper">
+		<div class="banner">
+			<img  width = "960px" height = "200px"  src= "images/banner.jpg"/>
+			<h2> A simple layout using css and html</h2>
+		</div>
+		<div id="main" >
+              
+             <button onclick="initFeedback()">Start Feedback Process </button>
+             <button onclick="endFeedback()">Stop Feedback Process</button> 
+
+		</div>
+		<div id = "NLAH" class="menu">
+			<h2>Side Menu</h2>
+			<ul>
+				<li><a href = "#" id = "home">Home </a></li>
+				<li><a href = "#" id = "about">About Us<a></li>
+				<li><a href = "#" id = "contact">Contact Us</a></li>
+				<li><a href = "#" id = "recent">Recent News</a></li>
+
+			</ul>
+		</div>
+		<div class="copyright">
+             <button class = "button" href="javascript:void(0);" onClick="generate();">Take Screenshot</button>
+			<p>Copyright 2010, Somecompny</p>
+		</div>
+	</div>
+</body>
+
